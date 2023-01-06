@@ -38,7 +38,7 @@ name.upper()
 name.lower()
 
 
-Using variablesin string
+Using variablesin string:
 These strings are called f-strings. The f is for format, because Python formats the string by replacing the name of any variable in braces with its value.
 first_name = "ada"
 last_name = "lovelace"
@@ -46,7 +46,7 @@ full_name = f"{first_name} {last_name}"
 message = f"Hello, {full_name.title()}!"
 print(message)
 
-Adding Whitespace to Strings with Tabs or Newlines
+Adding Whitespace to Strings with Tabs or Newlines:
 You can use whitespace to organize your output so it’s easier for users to read.
 >>>print("Languages:\nPython\nC\nJavaScript")
 >>> print("Languages:\n\tPython\n\tC\n\tJavaScript")
@@ -55,7 +55,7 @@ Languages:
     C
     JavaScript
 
-Stripping whitespace
+Stripping whitespace:
 To programmers, 'python' and 'python ' look pretty much the same. But to a program, they are two different strings. 
 But to a program, they are two different strings. For right side of a string, use the rstrip(). It is only removed temporarily
 
@@ -82,6 +82,27 @@ You can also strip whitespace from the left side of a string using the lstrip() 
 'python '
 >>> favorite_language.strip()
 'python'
+
+Removing Prefixes:
+When working with strings, another common task is to remove a prefix. Consider a URL with the common prefix https://. We want to remove this prefix, so we can focus on just the part of the URL that users need to enter into an address bar. Here’s how to do that:
+>>> nostarch_url = 'https://nostarch.com'
+>>> nostarch_url.removeprefix('https://')
+'nostarch.com'
+
+
+Numbers:
+float, integer
+
+Multiple Assignment:
+>>> x, y, z = 0, 0, 0
+You need to separate the variable names with commas, and do the same with the values, and Python will assign each value to its respective variable. As long as the number of values matches the number of variables, Python will match them up correctly.
+
+Constants:
+all capital letters to indicate a variable should be treated as a constant and never be changed
+MAX_CONNECTIONS = 5000
+
+
+
 
 
 
