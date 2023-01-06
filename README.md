@@ -75,12 +75,12 @@ Permenant:
 'python'
 
 You can also strip whitespace from the left side of a string using the lstrip() method, or from both sides at once using strip():
-❶ >>> favorite_language = ' python '
-❷ >>> favorite_language.rstrip()
+>>> favorite_language = ' python '
+>>> favorite_language.rstrip()
 ' python'
-❸ >>> favorite_language.lstrip()
+>>> favorite_language.lstrip()
 'python '
-❹ >>> favorite_language.strip()
+>>> favorite_language.strip()
 'python'
 
 
