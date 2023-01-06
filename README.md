@@ -14,6 +14,7 @@ It will include:
 
 ## Note:
 
+# chapt 1-2:
 naming and variables:
 -Variable names can contain only letters, numbers, and underscores. They can start with a letter or an underscore, but not with a number. For instance, you can call a variable message_1 but not 1_message.
 - Spaces are not allowed in variable names, but underscores can be used to separate words in variable names. For example, greeting_message works but greeting message will cause errors.
