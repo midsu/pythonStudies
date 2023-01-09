@@ -14,7 +14,7 @@ It will include:
 
 ## Note:
 
-# chapt 1-2:
+# chapt 1:
 naming and variables:
 -Variable names can contain only letters, numbers, and underscores. They can start with a letter or an underscore, but not with a number. For instance, you can call a variable message_1 but not 1_message.
 - Spaces are not allowed in variable names, but underscores can be used to separate words in variable names. For example, greeting_message works but greeting message will cause errors.
@@ -39,7 +39,9 @@ name.upper()
 name.lower()
 
 
-Using variablesin string:
+
+# chapt 2:
+Using variables in string:
 These strings are called f-strings. The f is for format, because Python formats the string by replacing the name of any variable in braces with its value.
 first_name = "ada"
 last_name = "lovelace"
@@ -111,6 +113,4 @@ MAX_CONNECTIONS = 5000
 
 ou learned another object-oriented language before Python, you may find it strange to use len(collection) instead of collection.len(). This apparent oddity is the tip of an iceberg that, when properly understood, is the key to everything we call Pythonic./
 The term magic method is slang for special method, but how do we talk about a specific method like __getitem__? I learned to say “dunder-getitem” from author and teacher Steve Holden. “Dunder” is a shortcut for “double underscore before and after.” That’s why the special methods are also known as dunder methods. The “Lexical Analysis” chapter of The Python Language Reference warns that “Any use of __*__ names, in any context, that does not follow explicitly documented use, is subject to breakage without warning.”/
-TIP:
-One reason to still use my_fmt.format() is when the definition of my_fmt must be in a different place in the code than where the formatting operation needs to happen. For instance, when my_fmt has multiple lines and is better defined in a constant, or when it must come from a configuration file, or from the database. Those are real needs, but don’t happen very often./
 
