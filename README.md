@@ -121,3 +121,5 @@ unsigned char Same as char but guaranteed to be unsigned.
 
 wchar_t Large enough to contain the largest character of the implementation’s locale. (Example: Unicode.)
 
+The character types char, signed char, and unsigned char are called narrow characters, whereas char16_t, char32_t, and wchar_t are called wide characters due to their relative storage requirements.
+
