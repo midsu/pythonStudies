@@ -123,7 +123,7 @@ wchar_t Large enough to contain the largest character of the implementation’s 
 
 The character types char, signed char, and unsigned char are called narrow characters, whereas char16_t, char32_t, and wchar_t are called wide characters due to their relative storage requirements.
 
-# Comparison Operators
+## Comparison Operators
 
 You can use several operators to build Boolean expressions. Recall that comparison operators take two arguments and return a bool. The available operators are equality (==), inequality (!=), greater than (>), less than (<), greater than or equal to (>=), and less than or equal to (<=).
 
