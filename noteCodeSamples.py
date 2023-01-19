@@ -126,13 +126,3 @@ MAX_CONNECTIONS = 5000
 # Say hello to everyone.
 print("Hello Python people!")
 
-# Comparison Operators
-  printf(" 7 ==  7: %d➊\n", 7  ==  7➋);
-  printf(" 7 !=  7: %d\n", 7  !=  7);
-  printf("10 > 20: %d\n", 10 >  20);
-  printf("10 >= 20: %d\n", 10 >= 20);
-  printf("10 < 20: %d\n", 10 <  20);
-  printf("20 <= 20: %d\n", 20 <= 20);
-
-  
-  
