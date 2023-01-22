@@ -1,3 +1,7 @@
+# Python study practice code
+# Hamid S.
+############################
+
 
 # variable name
 message = "Hello Python Crash Course reader!"
